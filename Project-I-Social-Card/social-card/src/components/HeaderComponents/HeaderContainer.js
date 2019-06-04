@@ -3,7 +3,7 @@ import './Header.css';
 import ImageThumbnail from "./ImageThumbnail";
 import HeaderTitle from"./HeaderTitle";
 import HeaderContent from "./HeaderContent";
-import CardBanner from "../CardComponents/CardBanner";
+
 
 const HeaderContainer = () => {
     return (
@@ -11,7 +11,6 @@ const HeaderContainer = () => {
           <ImageThumbnail />
           <HeaderTitle />
           <HeaderContent />
-          <CardBanner />
       </div>
     );
   };
